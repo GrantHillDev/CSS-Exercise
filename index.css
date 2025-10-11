@@ -1,0 +1,37 @@
+.nav-link /*this syntax is how you comment out items within CSS*/
+{
+    color: orange;
+    text-decoration: none;
+}
+
+main
+{
+max-width: 600px;/*if you look back at the html file for which this css file is linked to, you'll notice that for the main section, the html file details an image as part of its programming, and here in the css file linked to it, we're suggesting that the image itself doesn;t exceed a maximum value of 600 pixels in terms of its width when it's displayed on the web page.*/
+width: 100%;
+margin: 24px auto;/*for margins, whenever they're being defined by way of pixels, the order in which all four sides of such are sequenced goes as follows; top, bottom, left, then right.
+/* margin-top: 24px;
+margin-bottom: 24px;
+margin-left: auto;
+margin-right: auto; */
+}
+
+section
+{
+margin: 24px 0;
+padding: 16px;
+/*padding-top: 16px;
+/*padding-bottom: 16px;
+/*padding-left: 16px;
+/*padding-right: 16px;*/
+}
+
+#title
+{
+    font-size: 40px;
+    font-weight: 800;/*this weight value might ctually be the default equivalent already set up for title sized fonts on html web pages, so the alterations here may not be terribly noticeable.*/
+}
+
+.d-inline
+{
+    display: inline;
+}

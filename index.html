@@ -1,23 +1,24 @@
-<html lang="en">
+<html lang="en"><!--It's ideal to have your html page easily accessible to load, whether you do it by double clicking on the html file itself inside of your directory on your OS, or, by right clicking its tab in the top file tab selection above, and hitting the hotkey Shift + Alt + C, which copy its local file path into your clipboard, then you can paste that into a new broswer tab of your choosing, and it will render your html file there as well.-->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CSS Intro</title>
-    <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
-  </head>
-
-  <body>
+    <!-- Exercise 1: Add a link element with a href attribute that links your external CSS file to this document  -->
+     <link rel="stylesheet" href="./index.css" /><!--VS Code has its own intelliSense component built into it (like how VS community has its own built into it as well), so it can automatically format lines of code like this one as you're starting to write out your programming; just press the tab key, but be sure that in this case, the file you're attempting to link to this one is properly routed.-->
+  </head><!--if you hover the cursor over certain files that are written into lines of code, such as the one above, VS Code will offer the opportunity to click on it as a link (just hold down the Ctrl button, whilst left clicking the file on the command line). This can be a great way to quickly check to ensure that your linked files are exactly where you put them, or created them, other wise, VS Community will throw an error suggesting that the file could not be found.-->
+<!--newly created css file is now officially linked to this html based one. By the way; this linking technique really only applies to external type files, not necessarily the other varieties.-->
+  <body><!--the 'rel' attribute in the link line above is essential in properly instructing the file on how to load; how to display, for which its assigned value is 'stylesheet'. If this ref is not accurately declared, the file may never load at all, when it's being called.-->
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class= "d-inline">
+            <a class= "nav-Link" href="/">Home</a>
           </li>
-          <li>
-            <a href="/about">About</a>
+          <li class= "d-inline">
+            <a class= "nav-Link" href="/about">About</a>
           </li>
-          <li>
-            <a href="/projects">Projects</a>
+          <li class= "d-inline">
+            <a class= "nav-Link" href="/projects">Projects</a>
           </li>
         </ul>
       </nav>
@@ -48,11 +49,11 @@
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
+          <li class= "d-inline">
+            <a class= "nav-Link" href="/privacy">Privacy Policy</a>
           </li>
-          <li>
-            <a href="/terms">Terms and Conditions</a>
+          <li class= "d-inline">
+            <a class= "nav-Link" href="/terms">Terms and Conditions</a>
           </li>
         </ul>
       </nav>
