@@ -8,7 +8,7 @@ main
 {
 max-width: 600px;/*if you look back at the html file for which this css file is linked to, you'll notice that for the main section, the html file details an image as part of its programming, and here in the css file linked to it, we're suggesting that the image itself doesn't exceed a maximum value of 600 pixels in terms of its width when it's displayed on the web page.*/
 width: 100%;
-margin: 24px auto;/*for margins, whenever they're being defined by way of pixels, the order in which all four sides of such are sequenced goes as follows; top, bottom, left, then right.
+margin: 24px auto;/*for margins, whenever they're being defined by way of pixels, the order in which all four sides of such are sequenced goes as follows; top, bottom, left, then right.*/
 /* margin-top: 24px;
 margin-bottom: 24px;
 margin-left: auto;
@@ -45,7 +45,7 @@ body
 {
     margin: 0;/*takes away the default margin value for the body content of the web page if there was one.*/
     background-color: #222222;
-    color: #04b30d/*by hovering the cursor over the color definition itself, you can manually change the color to whatever you want, without having to type it in.*/
+    color: #04b30d;/*by hovering the cursor over the color definition itself, you can manually change the color to whatever you want, without having to type it in.*/
 }
 
 #avatar
